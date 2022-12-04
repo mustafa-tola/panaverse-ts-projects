@@ -27,7 +27,6 @@ const doingMathOps = (num1, num2, op) => {
             // console.log(num1 * num2)
         }
         else if (op == "/") {
-            console.log("Div");
             return JSON.stringify(num1 / num2);
         }
         else if (op == "**") {

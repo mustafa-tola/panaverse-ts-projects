@@ -1,12 +1,15 @@
 {
-  "name": "01-simple-cli-calc",
-  "version": "1.0.1",
+  "name": "number-guess-proj",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node ./bin/calc.js"
+    "start": "tsc && node bin/guessGame.js"
+  },
+  "bin": {
+    "mustufaNumberGuesser": "bin/guessGame.js"
   },
   "keywords": [],
   "author": "",
@@ -18,8 +21,5 @@
     "chalk": "^5.1.2",
     "chalk-animation": "^2.0.3",
     "inquirer": "^9.1.4"
-  },
-  "bin": {
-    "mustufaBasicCalc": "bin/calc.js" 
   }
 }

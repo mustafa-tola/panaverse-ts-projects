@@ -1,4 +1,3 @@
-#! /usr/bin/env node
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
 import { doingMathOps, takeTwoInputs, sleep, takingOp, checkingResult } from "./ops.js";
